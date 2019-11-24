@@ -16,11 +16,11 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="projects\DenOfEvil">
-      <UniqueIdentifier>{be7287aa-d00d-4bf2-8be9-fa530e845482}</UniqueIdentifier>
+    <Filter Include="projects\Zoner">
+      <UniqueIdentifier>{45f62c88-7c6a-4947-8210-114308cff0eb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="projects\DenOfEvil\Interfaces">
-      <UniqueIdentifier>{aa5b3328-b8ce-48f0-9d1d-1d3f6d10c376}</UniqueIdentifier>
+    <Filter Include="projects\Zoner\interfaces">
+      <UniqueIdentifier>{5d86f09a-4e2b-47a3-873d-17e7ab0241ff}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -147,17 +147,11 @@
     <ClCompile Include="Random.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DenOfEvil.cpp">
-      <Filter>projects\DenOfEvil</Filter>
+    <ClCompile Include="Zoner.cpp">
+      <Filter>projects\Zoner</Filter>
     </ClCompile>
-    <ClCompile Include="projects\DenOfEvil\DOEGame.cpp">
-      <Filter>projects\DenOfEvil</Filter>
-    </ClCompile>
-    <ClCompile Include="projects\DenOfEvil\DOEFloor.cpp">
-      <Filter>projects\DenOfEvil</Filter>
-    </ClCompile>
-    <ClCompile Include="projects\DenOfEvil\Scriptables.cpp">
-      <Filter>projects\DenOfEvil</Filter>
+    <ClCompile Include="projects\Zoner\Game.cpp">
+      <Filter>projects\Zoner</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -281,20 +275,14 @@
     <ClInclude Include="Random.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DenOfEvil.h">
-      <Filter>projects\DenOfEvil</Filter>
+    <ClInclude Include="Zoner.h">
+      <Filter>projects\Zoner</Filter>
     </ClInclude>
-    <ClInclude Include="projects\DenOfEvil\DOEGame.h">
-      <Filter>projects\DenOfEvil</Filter>
+    <ClInclude Include="projects\Zoner\IGame.h">
+      <Filter>projects\Zoner\interfaces</Filter>
     </ClInclude>
-    <ClInclude Include="projects\DenOfEvil\IDOEGame.h">
-      <Filter>projects\DenOfEvil\Interfaces</Filter>
-    </ClInclude>
-    <ClInclude Include="projects\DenOfEvil\DOEFloor.h">
-      <Filter>projects\DenOfEvil</Filter>
-    </ClInclude>
-    <ClInclude Include="projects\DenOfEvil\Scriptables.h">
-      <Filter>projects\DenOfEvil</Filter>
+    <ClInclude Include="projects\Zoner\Game.h">
+      <Filter>projects\Zoner</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
